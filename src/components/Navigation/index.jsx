@@ -1,5 +1,6 @@
 import React from "react";
 import { NavLink } from "react-router-dom";
+import "../../styles/navigation.css"
 
 
 function Navigation() {
@@ -28,4 +29,4 @@ function Navigation() {
     )
 }
 
-export default Navigation ;
+export default Navigation;

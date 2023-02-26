@@ -14,9 +14,9 @@ root.render(
     <BrowserRouter>
     <Navigation/>
     <Routes>
-        <Route path="/" exact component={<Home />} />
-        <Route path="/gate" component={<Gate />} />
-        <Route path="/login" component={<Login />} />
+        <Route path="/" element={<Home />} />
+        <Route path="/gate" element={<Gate />} />
+        <Route path="/login" element={<Login />} />
         <Route path = "*" element ={<Error />} /> 
         
     </Routes>
