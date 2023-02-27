@@ -4,6 +4,7 @@ import { Link } from "react-router-dom";
 
 function Error () {
     return (
+        <div className="content">
         <div className="p404">
             <div className="page404">
                 <h1>404</h1>
@@ -14,6 +15,7 @@ function Error () {
             <Link to ="/" className="lin">
                 Retournez sur la page d'accueil
             </Link>
+        </div>
         </div>
     )
 }

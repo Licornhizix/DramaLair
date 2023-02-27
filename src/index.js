@@ -6,6 +6,7 @@ import Login from './pages/Login';
 import Gate from './pages/Gate';
 import Navigation from './components/Navigation';
 import Error from './pages/Error';
+import Footer from './components/Footer';
 import reportWebVitals from './reportWebVitals';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
@@ -18,8 +19,8 @@ root.render(
         <Route path="/gate" element={<Gate />} />
         <Route path="/login" element={<Login />} />
         <Route path = "*" element ={<Error />} /> 
-        
     </Routes>
+    <Footer />
     </BrowserRouter>
   </React.StrictMode>
 );
