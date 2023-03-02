@@ -18,3 +18,10 @@ h3, h1 {
     font-weight: normal;
 }
 
+.content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+

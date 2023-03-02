@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
-import inscriptionForm from './pages/inscriptionForm';
+import InscriptionForm from '../InscriptionForm';
+import "../../styles/whispergate.css"
 
 
 
@@ -20,7 +21,7 @@ function Login() {
   }
 
   return (
-    <div>
+    <div className="content">
       <h1>Page de connexion</h1>
       <form onSubmit={handleSubmit}>
         <label>
@@ -44,7 +45,7 @@ function Login() {
         <button type="submit">Connexion</button>
       </form>
       <br />
-      <Link to="/inscriptionForm" element={<inscriptionForm />}>Inscription</Link>
+      <Link to="/InscriptionForm">Inscription</Link>
     </div>
   );
 }

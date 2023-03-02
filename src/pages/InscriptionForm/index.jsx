@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import "../../styles/whispergate.css"
 
 function InscriptionForm() {
   // Initialisez les états locaux pour le nom et l'email
@@ -13,6 +14,7 @@ function InscriptionForm() {
   }
 
   return (
+    <div className="content">
     <form onSubmit={handleSubmit}>
       <label>
         Nom:
@@ -34,6 +36,7 @@ function InscriptionForm() {
       <br />
       <button type="submit">Valider</button>
     </form>
+    </div>
   );
 }
 
