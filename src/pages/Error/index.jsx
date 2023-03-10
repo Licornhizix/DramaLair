@@ -3,6 +3,7 @@ import { Link } from "react-router-dom";
 import "../../styles/whispergate.css"
 
 
+
 function Error () {
     return (
         <div className="content">

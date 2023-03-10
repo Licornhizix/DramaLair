@@ -1,27 +1,29 @@
-* {
+html, body {
     box-sizing: border-box;
     margin: 0;
     padding: 0;
     
 }
-
-html, body {
-    height: 100%;
-    
-}
 body {
+    
     display: flex;
-    flex-direction: column;    
+    flex-direction: column; 
+    margin: 0;
+    padding: 0; 
+    background-image: url('../assets/damier.jpg');
+    background-repeat: no-repeat;
+    background-size: cover  ;  
 }
 
 h3, h1 {
     font-weight: normal;
 }
 
-.content{
+ .content{
     display: flex;
     justify-content: center;
     align-items: center;
-    flex-direction: column;
+    flex-direction: column; 
+    height: 1200px;
 }
 
