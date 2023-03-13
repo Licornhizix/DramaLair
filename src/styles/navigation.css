@@ -3,10 +3,13 @@
     justify-content: flex-end;
     align-items: center;
     padding: 10px 0;
-    height: 50px;
+    height: 250px;
     padding: 0 50px;
     margin: 0 auto;
+    /*background-image: url('../assets/marbre.jpg');*/
     background-color: rgb(167, 165, 165);
+    border-bottom: 1px solid black;
+    width: 50%;
     
 }
 
@@ -14,14 +17,20 @@
 .nav-links a {
     text-decoration: none;
     color: pink;
-    font-style: italic;
-    font-weight: 700;
-    margin-right: 15px;
-    font-size: 25px;
+    font-style: italic; 
+    font-weight: 100;
+    margin-right: 30px;
+    font-size: 40px;
 }
 
 .nav-links a:hover {
     text-decoration: underline;
+}
+
+.logo{
+  display: flex;
+  justify-content: flex-start;
+  align-content: center;
 }
 
 

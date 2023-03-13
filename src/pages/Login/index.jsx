@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
 import InscriptionForm from '../InscriptionForm';
 import "../../styles/whispergate.css"
-
+import "../../styles/loginform.css"
 
 
 

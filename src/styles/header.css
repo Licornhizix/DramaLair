@@ -1,0 +1,7 @@
+.header-main{
+    display: flex;
+    flex-direction: row;
+    height: 250px;
+    background-color: rgb(167, 165, 165);
+    border-bottom: 1px solid black;
+}

@@ -6,6 +6,7 @@ import "../../styles/navigation.css"
 function Navigation() {
 
     return (
+        
         <div className="navbar">
             
             <div className="nav-links">

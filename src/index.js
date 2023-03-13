@@ -5,7 +5,7 @@ import Home from './pages/Home';
 import Login from './pages/Login';
 import InscriptionForm from './pages/InscriptionForm';
 import Gate from './pages/Gate';
-import Navigation from './components/Navigation';
+import Header from './components/Header';
 import Error from './pages/Error';
 import Footer from './components/Footer';
 import reportWebVitals from './reportWebVitals';
@@ -14,7 +14,7 @@ const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
     <BrowserRouter>
-    <Navigation/>
+    <Header/>
     <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/gate" element={<Gate />} />
