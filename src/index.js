@@ -2,8 +2,8 @@ import React from 'react';
 import ReactDOM from 'react-dom/client';
 import { BrowserRouter, Routes, Route, } from "react-router-dom";
 import Home from './pages/Home';
-import Login from './pages/Login';
-import InscriptionForm from './pages/InscriptionForm';
+import LoginPage from './pages/LoginPage';
+import InscriptionPage from './pages/InscriptionPage';
 import Gate from './pages/Gate';
 import Header from './components/Header';
 import Error from './pages/Error';
@@ -18,8 +18,8 @@ root.render(
     <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/gate" element={<Gate />} />
-        <Route path="/login" element={<Login />} />
-        <Route path="/InscriptionForm" element={<InscriptionForm />} />
+        <Route path="/LoginPage" element={<LoginPage />} />
+        <Route path="/InscriptionPage" element={<InscriptionPage />} />
         <Route path = "*" element ={<Error />} /> 
     </Routes>
     <Footer />

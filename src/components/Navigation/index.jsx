@@ -16,12 +16,12 @@ function Navigation() {
                     Accueil
                 </NavLink>
                 <NavLink
-                    to="/gate"
+                    to="/Gate"
                 >
                     Gate
                 </NavLink>
                 <NavLink
-                    to="/login"
+                    to="/LoginPage"
                 >
                     Login
                 </NavLink>

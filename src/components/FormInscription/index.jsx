@@ -1,7 +1,8 @@
 import React, { useState } from 'react';
 import "../../styles/whispergate.css"
 
-function InscriptionForm() {
+
+function FormInscription() {
   // Initialisez les états locaux pour le nom et l'email
   const [nom, setNom] = useState('');
   const [email, setEmail] = useState('');
@@ -41,4 +42,4 @@ function InscriptionForm() {
   );
 }
 
-export default InscriptionForm;
+export default FormInscription;

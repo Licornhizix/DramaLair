@@ -1,12 +1,12 @@
 import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
-import InscriptionForm from '../InscriptionForm';
 import "../../styles/whispergate.css"
 import "../../styles/loginform.css"
+import InscriptionPage from '../../pages/InscriptionPage';
 
 
 
-function Login() {
+function FormLogin() {
  
 
 
@@ -46,7 +46,7 @@ function Login() {
         <button type="submit">Connexion</button>
       </form>
       <br />
-      <Link to="/InscriptionForm">Inscription</Link>
+      <Link to={"/InscriptionPage"}>Inscription</Link>
     </div>
   );
 }
@@ -54,4 +54,4 @@ function Login() {
 
 
 
-export default Login;
+export default FormLogin;
