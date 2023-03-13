@@ -15,22 +15,23 @@ function InscriptionForm() {
 
   return (
     <div className="content">
+      <h1>Inscription</h1>
     <form onSubmit={handleSubmit}>
       <label>
-        Nom:
         <input
           type="text"
           value={nom}
           onChange={(event) => setNom(event.target.value)}
+          placeholder="Name"
         />
       </label>
       <br />
       <label>
-        Email:
         <input
           type="email"
           value={email}
           onChange={(event) => setEmail(event.target.value)}
+          placeholder="Mail"
         />
       </label>
       <br />
