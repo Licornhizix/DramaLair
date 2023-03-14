@@ -38,6 +38,6 @@ h3, h1 {
     justify-content: center;
     align-items: center;
     flex-direction: column; 
-    height: 1200px;
-}
+    min-height: 900px;
 
+ }

@@ -23,6 +23,7 @@ function FormLogin() {
 
   return (
     <div className="content">
+      <div className='form-login'>
       <h1>Login</h1>
       <form onSubmit={handleSubmit}>
         <label>
@@ -47,6 +48,7 @@ function FormLogin() {
       </form>
       <br />
       <Link to={"/InscriptionPage"}>Inscription</Link>
+    </div>
     </div>
   );
 }

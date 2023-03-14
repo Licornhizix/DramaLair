@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import "../../styles/whispergate.css"
+import "../../styles/inscriptionform.css"
 
 
 function FormInscription() {
@@ -16,6 +17,7 @@ function FormInscription() {
 
   return (
     <div className="content">
+      <div className='form-inscription'>
       <h1>Inscription</h1>
     <form onSubmit={handleSubmit}>
       <label>
@@ -38,6 +40,7 @@ function FormInscription() {
       <br />
       <button type="submit">Valider</button>
     </form>
+    </div>
     </div>
   );
 }
