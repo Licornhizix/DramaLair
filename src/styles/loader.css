@@ -35,4 +35,8 @@
       width: 17%;
     }
   }
+
+  .hide-loader {
+    display: none;
+  }
   

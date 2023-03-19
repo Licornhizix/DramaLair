@@ -12,8 +12,13 @@ const Loader = () => {
     };
   }, []);
 
+  function stopLoader() {
+    const loader = document.querySelector('.loader');
+    loader.classList.add('hide-loader');
+  }
+
   return (
-    <div className={`loader ${loading ? "show" : "hide"}`}>
+    <div className={`loader ${loading ? "show" : "hide"}`} onClick={stopLoader}>
       <div className="typing-text">Ceci est mon histoire</div>
     </div>
   );
