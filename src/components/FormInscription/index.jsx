@@ -42,6 +42,7 @@ function FormInscription() {
     </form>
     </div>
     </div>
+    
   );
 }
 
