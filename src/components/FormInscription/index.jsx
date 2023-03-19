@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import "../../styles/whispergate.css"
+import "../../styles/dramalair.css"
 import "../../styles/inscriptionform.css"
 
 

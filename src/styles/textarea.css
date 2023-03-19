@@ -1,0 +1,8 @@
+textarea {
+    width: 500px; /* Changer la largeur selon vos besoins */
+    height: 500px;
+    margin: 0 auto; /* Centre le textarea horizontalement */
+    display: flex; /* Permet de centrer le textarea verticalement */
+    justify-content: center;
+    align-items: flex-end;
+  }

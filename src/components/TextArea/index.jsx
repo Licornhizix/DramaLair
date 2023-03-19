@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import "../../styles/textarea.css"
 
 function TextArea() {
   const [text, setText] = useState("");
@@ -14,6 +15,7 @@ function TextArea() {
   }
 
   return (
+    <div className="textarea">
     <form onSubmit={handleSubmit}>
       <label>
         Écrivez votre texte :
@@ -21,6 +23,7 @@ function TextArea() {
       </label>
       <button type="submit">Publier</button>
     </form>
+    </div>
   );
 }
 

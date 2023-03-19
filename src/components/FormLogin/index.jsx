@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
-import "../../styles/whispergate.css"
+import "../../styles/dramalair.css"
 import "../../styles/loginform.css"
 import InscriptionPage from '../../pages/InscriptionPage';
 

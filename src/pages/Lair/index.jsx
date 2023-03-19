@@ -1,19 +1,19 @@
 import React from "react";
-import "../../styles/whispergate.css"
+import "../../styles/dramalair.css"
 import TextArea from '../../components/TextArea';
 
 
 
 
 
-function Gate() {
+function Lair() {
   return (
     <div className="content">
-      <h1>Je suis en page Gate</h1>
+      <h1>Je suis en page Lair</h1>
       <TextArea/>
     </div>
   );
 }
 
-export default Gate;
+export default Lair;
 

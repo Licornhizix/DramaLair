@@ -6,7 +6,7 @@ function LogoHeader() {
 
     return (
         <div className="logo">
-            <h1>WhisperGate</h1>
+            <h1>DramaLair</h1>
         </div>
     )
 }

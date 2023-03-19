@@ -16,9 +16,9 @@ function Navigation() {
                     Accueil
                 </NavLink>
                 <NavLink
-                    to="/Gate"
+                    to="/Lair"
                 >
-                    Gate
+                    Lair
                 </NavLink>
                 <NavLink
                     to="/LoginPage"
