@@ -1,7 +1,21 @@
 .header-main{
     display: flex;
+    align-items: center;
     flex-direction: row;
-    height: 250px;
+    height: 100px;
     background-color: rgb(167, 165, 165);
-    border-bottom: 1px solid black;
+    
 }
+
+.header-extend{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 75px;
+    background-color: rgb(167, 165, 165);
+    border-bottom-left-radius: 25%;
+    border-bottom-right-radius: 25%;
+    border-bottom: 1px solid pink;
+    
+}
+

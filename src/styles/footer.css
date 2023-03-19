@@ -9,8 +9,9 @@
     color: white;
     background-color: rgb(167, 165, 165);
     margin: auto;
-    
-    border-top: 1px solid black;
+    border-top: 1px solid pink;
+    border-top-left-radius: 25%;
+    border-top-right-radius: 25%;
     
 }
 
@@ -23,9 +24,9 @@
     display: flex;
     align-items: flex-end;
     text-align: center;
-    font-weight: 700;
+    font-weight: 200;
     color: pink;
-    font-style: italic;
+    
 }
 @media (max-width: 820px) {
     .footer {
