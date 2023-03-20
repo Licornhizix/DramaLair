@@ -10,18 +10,18 @@ function Navigation() {
         <div className="navbar">
             
             <div className="nav-links">
-                <NavLink
-                    to="/"
+                <NavLink exact to
+                    ="/" activeClassName="active"
                 >
                     Accueil
                 </NavLink>
                 <NavLink
-                    to="/Lair"
+                    to="/Lair" activeClassName="active"
                 >
                     Lair
                 </NavLink>
                 <NavLink
-                    to="/LoginPage"
+                    to="/LoginPage" activeClassName="active"
                 >
                     Login
                 </NavLink>
