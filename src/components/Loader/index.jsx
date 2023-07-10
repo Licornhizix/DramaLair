@@ -19,7 +19,7 @@ const Loader = () => {
 
   return (
     <div className={`loader ${loading ? "show" : "hide"}`} onClick={stopLoader}>
-      <div className="typing-text">Ceci est mon histoire</div>
+      <div className="typing-text">Vide ton sac Wojak</div>
     </div>
   );
 };

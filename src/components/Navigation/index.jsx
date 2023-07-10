@@ -13,12 +13,12 @@ function Navigation() {
                 <NavLink exact to
                     ="/" activeClassName="active"
                 >
-                    Accueil
+                    Welcome
                 </NavLink>
                 <NavLink
-                    to="/Lair" activeClassName="active"
+                    to="/Square" activeClassName="active"
                 >
-                    Lair
+                    Square
                 </NavLink>
                 <NavLink
                     to="/LoginPage" activeClassName="active"

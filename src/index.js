@@ -4,7 +4,7 @@ import { BrowserRouter, Routes, Route, } from "react-router-dom";
 import Home from './pages/Home';
 import LoginPage from './pages/LoginPage';
 import InscriptionPage from './pages/InscriptionPage';
-import Lair from './pages/Lair';
+import Square from './pages/Square';
 import Header from './components/Header';
 import Error from './pages/Error';
 import Footer from './components/Footer';
@@ -17,7 +17,7 @@ root.render(
     <Header/>
     <Routes>
         <Route path="/" element={<Home />} />
-        <Route path="/lair" element={<Lair />} />
+        <Route path="/Square" element={<Square />} />
         <Route path="/LoginPage" element={<LoginPage />} />
         <Route path="/InscriptionPage" element={<InscriptionPage />} />
         <Route path = "*" element ={<Error />} /> 

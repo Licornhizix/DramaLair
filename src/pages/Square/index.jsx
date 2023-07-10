@@ -6,14 +6,14 @@ import TextArea from '../../components/TextArea';
 
 
 
-function Lair() {
+function Square() {
   return (
     <div className="content">
-      <h1>Je suis en page Lair</h1>
+      <h1>Je suis en page Square</h1>
       <TextArea/>
     </div>
   );
 }
 
-export default Lair;
+export default Square;
 

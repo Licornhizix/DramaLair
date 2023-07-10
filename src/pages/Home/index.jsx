@@ -12,7 +12,7 @@ function Home() {
     <div>
     <Loader />
     <div className="content">
-      <h1>Je suis en page home</h1>
+      <h1>Vide ton sac</h1>
     </div>
     </div>
   );

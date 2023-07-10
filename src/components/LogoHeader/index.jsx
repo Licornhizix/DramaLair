@@ -7,8 +7,8 @@ function LogoHeader() {
     return (
         <div className="logo">
             <div className="center-logo">
-            <h1>DramaLair</h1>
-            <p> To be the hero of your drama</p>
+            <h1>Doomdrama</h1>
+            <p> Being the hero of your drama</p>
             </div>
         </div>
     )
