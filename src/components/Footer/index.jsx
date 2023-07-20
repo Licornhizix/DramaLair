@@ -5,7 +5,7 @@ function Footer() {
     return (
         <div className="footer">
             
-            <div className="copyright">© 2023 DramaLair. All rights reserved</div>
+            <div className="copyright">© 2023 Doomdrama. All rights reserved</div>
         </div>
     )
 }

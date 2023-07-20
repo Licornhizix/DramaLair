@@ -18,7 +18,7 @@ function TextArea() {
     <div className="textarea">
     <form onSubmit={handleSubmit}>
       <label>
-        <textarea value={text} onChange={handleChange} placeholder="Ceci est mon histoire..." />
+        <textarea value={text} onChange={handleChange} placeholder="Hier je suis rentré dans mon appart miteux. J'étais cramé après mon bullshit taf. De la fenêtre, j'ai vu ma voisine blonde se faire emballer par un outsider gros et chauve. Quand à moi je suis seul depuis deux ans..." />
       </label>
       <button type="submit">Publier</button>
     </form>
