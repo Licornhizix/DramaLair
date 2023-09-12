@@ -3,7 +3,7 @@
     height: 200px;
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: flex-end;
     align-items: center;
     text-align: center;
     color: white;
@@ -27,6 +27,16 @@
     font-weight: 200;
     color: pink;
     
+}
+
+.footer .counter {
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    font-size: 20px;
+    color: black;
 }
 @media (max-width: 820px) {
     .footer {
